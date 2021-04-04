@@ -1,0 +1,64 @@
+<!-- Morning Challenge: A local coffee house is finally starting to take off ever since they introduced cold brew made from Kopi Luwak. They can’t handle their order volume and are starting to drop orders. Create an app that enables the cashier to enter the customer's name and their order. Then add that order to a queue that the baristas can see and give them the ability to mark an order complete. Completed orders should show which barista completed the order and have their own list. Bonus points if the app automatically says the customer's name out loud when an order is complete. -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>café caliente</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+
+<body>
+  <div class="top-butts">
+    <a href="/login" class="btn btn-default"></span>Login</a>
+    <a href="/signup" class="btn btn-default"></span>Create an Account</a>
+  </div>
+  <h1 class="title">cafe caliente</h1>
+
+
+  <div class="container">
+    <div class="text-center">
+      <img src="img/logo.png" alt="cafe calient de miggie logo with espresso machine">
+      </div>
+    </div>
+
+    <section class="CashierContainer">
+      <div class="CashierTitle">
+        <h2>Welcome!
+        Enter Guest Order Below</h2>
+      </div>
+      <form class="CashierTitle" action="/messages" method="POST">
+        <input class="nameTwo" type="text" value="" placeholder="Enter customer name" name="name">
+        <h3>Drink Order</h3>
+        <select class="orderTwo" placeholder="Drink Order" name="order">
+          <option value="Leche">Cafe con Leche</option>
+          <option value="Colombiano">Cafe Colombiano</option>
+          <option value="Cubano">Cafe Cubano</option>
+          <option value="Choco">Chocolat Indigina</option>
+          <option value="Vaca">Leche de Vaca</option>
+          <option value="Banano">Batido de banano</option>
+          <option value="Mango">Batida de mango</option>
+          <option value="Morir">Morir Soñando</option>
+          <option value="Agua">Agua</option>
+        </select>
+        <h3>Choose Size</h3>
+        <select id= "size" name="size">
+          <option value="Small">Chiquito/Small</option>
+          <option value="Medium">Mediano/Medium</option>
+          <option value="Large">Grande/Large</option>
+          <option value="Infantile">Infantile/ Kid's size</option>
+        </select>
+        <h3>¿Une Pan De Dulce?</h3>
+        <select id= "treat" name="treat">
+          <option value="Pan con Queso">Pan con Queso</option>
+          <option value="Concha">Concha</option>
+          <option value="Vegano Concha">Vegano Concha</option>
+          <option value="Vegano Pan con Queso">Vegano Pan con Queso</option>
+        </select>s
+
+        <button class="submit" type="submit">Submit</button>
+        <h3></h3>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  padding-top: 60px;
+  word-wrap:break-word;
+  overflow: auto;
+  background: url(img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  background-color: white;
+}
+
+.top-butts{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: rgb(234, 182, 118, .778935);
+}
+
+img {
+  height: 210px;
+}
+
+
+
+.jumbotron {
+  background-color: rgb(234, 182, 118, .778935);
+}
+
+.CashierContainer{
+  text-align: center;
+  background-color: rgb(234, 182, 118, .859);
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.container{
+  text-align: center;
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
